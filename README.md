@@ -12,5 +12,4 @@ cd webaudioapi-microphone/src  # get into dir with the html file
 python -m SimpleHTTPServer  # launch this HTTPD server to make this dir visible on your browser
 ```
 
-- now point your browser at URL  http://localhost:8000
-- 
+now point your browser at URL  http://localhost:8000
