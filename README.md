@@ -13,3 +13,11 @@ python -m SimpleHTTPServer  # launch this HTTPD server to make this dir visible 
 ```
 
 now point your browser at URL  http://localhost:8000
+
+pick the html file ... then you MUST get the prompt to acknowledge usage of your microphone (if NOT your launch is wrong)
+
+then open up the browser console ctrl-shift-i
+
+here you see snippets of the raw audio memory buffer (time domain and/or frequency domain see comments in code) in PCM format
+
+
