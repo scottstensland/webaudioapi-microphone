@@ -68,13 +68,13 @@ var webaudio_tooling_obj = function () {
 		}
 	}
 
-	function process_microphone_buffer(event) {
+	// function process_microphone_buffer(event) {
 
-		var i, N, inp, microphone_output_buffer;
+	// 	var i, N, inp, microphone_output_buffer;
 
-		// not needed for basic feature set
-	    // microphone_output_buffer = event.inputBuffer.getChannelData(0); // just mono - 1 channel for now
-	}
+	// 	// not needed for basic feature set
+	//     // microphone_output_buffer = event.inputBuffer.getChannelData(0); // just mono - 1 channel for now
+	// }
 
 	function start_microphone(stream){
 
@@ -85,7 +85,7 @@ var webaudio_tooling_obj = function () {
 		microphone_stream.connect(gain_node); 
 
 		script_processor_node = audioContext.createScriptProcessor(BUFF_SIZE_RENDERER, 1, 1);
-		script_processor_node.onaudioprocess = process_microphone_buffer;
+		// script_processor_node.onaudioprocess = process_microphone_buffer;
 
 		microphone_stream.connect(script_processor_node);
 
