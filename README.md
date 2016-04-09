@@ -18,6 +18,8 @@ pick the html file ... then you MUST get the prompt to acknowledge usage of your
 
 then open up the browser console ( ctrl-shift-i )
 
-here you see snippets of the raw audio memory buffer (time domain and/or frequency domain see comments in code) in PCM format
+here you see print out snippets of the raw audio memory buffer (time domain and/or frequency domain see comments in code) in PCM format (the Web Audio API has an event loop ... this prints first X Samples per loop)
+
+
 
 
